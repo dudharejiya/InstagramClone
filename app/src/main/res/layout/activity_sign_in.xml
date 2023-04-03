@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signInActivity">
+
+    <ImageView
+        android:id="@+id/instagramLogoID"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/instagram_logo" />
+
+    <EditText
+        android:id="@+id/loginUsernameID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/instagramLogoID"
+        android:hint="Username">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/loginpasswordID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/loginUsernameID"
+        android:hint="Password">
+    </EditText>
+
+    <Button
+        android:id="@+id/loginButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginpasswordID"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="36dp"
+        android:hint="Login">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/signUpTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButtonID"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Don't have an account? Sign Up">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/skipToAppID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="249dp"
+        android:text="Skip to the App" />
+
+</RelativeLayout>

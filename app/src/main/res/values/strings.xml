@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">InstagramClone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="repeatUser">Already have an account? Sign in.</string>
+    <string name="username">Paras_Dudhrejiya</string>
+    <string name="userimage">userImage</string>
 </resources>
